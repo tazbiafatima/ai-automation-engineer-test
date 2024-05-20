@@ -1,0 +1,9 @@
+# Risk Analysis and mitigation in AI generated content
+
+For AI generated content in news pipelines, it is important to have a strategy to test and validate the outputs and allow for human-editor injections in the result. The accuracy of the generated content is vital and there are obvious risks of hallucinations or bias, however I think the major risk is of over-generalization of the article context which can lead to lower SEO ranking. Since, the output is in text format, it would be tedious to have another script or function test it but this is where an editor can chime in - to approve or give feedback. It will be helpful if there's a newsroom dictionary or guide such as the words used, spellings, main categories of the stories as well as more factual guides for cities in and around SF, a list of landmarks, list of latest political candidates. Such files can be used to guardrail and validate the outputs better.
+
+To handle sensitive and controversial topics, with AI we can have a function filter out and moderate spam, or lanugage. We can always provide or fine-tune our systems to language dictionaries. Increasingly AI models and frameworks are better equipped to identify sensitivity in gender, by age, by crime etc and we can have a set of guidelines that are newsroom-specific.
+
+Largely we do surrender to the AI model's understanding of context of the article when producing AI content since it could miss out on previous news series on the same topic or even latest happenings in the area. If there are stories produced as part of a series, maintaining historical context in the form of articles produced in chronological order or via events occured since will help but requires a streamlined input process from the reporters and editors end.
+
+The key to getting the most out of AI and AI generated content would be to supplement it with human interventions in the process instead of hitting the generate button blindly.
