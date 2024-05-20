@@ -65,7 +65,8 @@ if inputArticle:
         {"role": "assistant", "content": example_1},
         {"role": "assistant", "content": example_2},
         {"role": "assistant", "content": example_3},
-        {"role": "user", "content": "For the input article: " + inputArticle + "Generate a one-sentence Headline, SEO URL's Article Permalink and a Social Media Post and return as the value for the JSON keys 'Headline', 'Article' and 'Social Media Post'"}
+        {"role": "user", "content": "For the input article: " + inputArticle + "Generate a one-sentence Headline, SEO URL's Article Permalink and a Social Media Post and return as the value for the JSON keys 'Headline', 'Article' and 'Social Media Post'"},
+        {"role": "user", "content": "Do not provide any hashtags or other information."}
     ]
     )
     
